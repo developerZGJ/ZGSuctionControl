@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1DDD86341DE831EA83C9EA5F /* Pods_ZGSuctionControlDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A189CBB041BCE47D8086EB55 /* Pods_ZGSuctionControlDemoTests.framework */; };
+		5772E25E37E9EAAB0335EABC /* Pods_ZGSuctionControlDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D00486F45EA0DDD5FB5B9D7 /* Pods_ZGSuctionControlDemo.framework */; };
 		D40F9D141F307DA40089A721 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F9D131F307DA40089A721 /* AppDelegate.swift */; };
 		D40F9D161F307DA40089A721 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F9D151F307DA40089A721 /* ViewController.swift */; };
 		D40F9D191F307DA40089A721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40F9D171F307DA40089A721 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		D40F9D1E1F307DA40089A721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40F9D1C1F307DA40089A721 /* LaunchScreen.storyboard */; };
 		D40F9D291F307DA40089A721 /* ZGSuctionControlDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F9D281F307DA40089A721 /* ZGSuctionControlDemoTests.swift */; };
 		D40F9D341F307DA40089A721 /* ZGSuctionControlDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F9D331F307DA40089A721 /* ZGSuctionControlDemoUITests.swift */; };
+		D40F9D421F307DF50089A721 /* CustomerServiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F9D411F307DF50089A721 /* CustomerServiceView.swift */; };
+		D42A42AF72012CB5EB5D858C /* Pods_ZGSuctionControlDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A036FB66FE429FC19E0BCB /* Pods_ZGSuctionControlDemoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19CEF801BDA021F74EBE57C0 /* Pods-ZGSuctionControlDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGSuctionControlDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZGSuctionControlDemoTests/Pods-ZGSuctionControlDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		3396C9B86445291A418149DA /* Pods-ZGSuctionControlDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGSuctionControlDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZGSuctionControlDemoTests/Pods-ZGSuctionControlDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		53964A9ADFD5DDF10EDFB51E /* Pods-ZGSuctionControlDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGSuctionControlDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZGSuctionControlDemo/Pods-ZGSuctionControlDemo.release.xcconfig"; sourceTree = "<group>"; };
+		9D00486F45EA0DDD5FB5B9D7 /* Pods_ZGSuctionControlDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZGSuctionControlDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9ECC97B178FC32A9D4A81F2E /* Pods-ZGSuctionControlDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGSuctionControlDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZGSuctionControlDemoUITests/Pods-ZGSuctionControlDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A189CBB041BCE47D8086EB55 /* Pods_ZGSuctionControlDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZGSuctionControlDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEAA784EA0AA16825F4F681A /* Pods-ZGSuctionControlDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGSuctionControlDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZGSuctionControlDemoUITests/Pods-ZGSuctionControlDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D40F9D101F307DA40089A721 /* ZGSuctionControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGSuctionControlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40F9D131F307DA40089A721 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D40F9D151F307DA40089A721 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,9 @@
 		D40F9D2F1F307DA40089A721 /* ZGSuctionControlDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGSuctionControlDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D40F9D331F307DA40089A721 /* ZGSuctionControlDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGSuctionControlDemoUITests.swift; sourceTree = "<group>"; };
 		D40F9D351F307DA40089A721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D40F9D411F307DF50089A721 /* CustomerServiceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomerServiceView.swift; sourceTree = "<group>"; };
+		D88F494100855DAD7DE3DF2C /* Pods-ZGSuctionControlDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZGSuctionControlDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZGSuctionControlDemo/Pods-ZGSuctionControlDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E9A036FB66FE429FC19E0BCB /* Pods_ZGSuctionControlDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZGSuctionControlDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5772E25E37E9EAAB0335EABC /* Pods_ZGSuctionControlDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DDD86341DE831EA83C9EA5F /* Pods_ZGSuctionControlDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +84,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D42A42AF72012CB5EB5D858C /* Pods_ZGSuctionControlDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A56E266B1794C6C65FEE11F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D88F494100855DAD7DE3DF2C /* Pods-ZGSuctionControlDemo.debug.xcconfig */,
+				53964A9ADFD5DDF10EDFB51E /* Pods-ZGSuctionControlDemo.release.xcconfig */,
+				3396C9B86445291A418149DA /* Pods-ZGSuctionControlDemoTests.debug.xcconfig */,
+				19CEF801BDA021F74EBE57C0 /* Pods-ZGSuctionControlDemoTests.release.xcconfig */,
+				9ECC97B178FC32A9D4A81F2E /* Pods-ZGSuctionControlDemoUITests.debug.xcconfig */,
+				BEAA784EA0AA16825F4F681A /* Pods-ZGSuctionControlDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D40F9D071F307DA40089A721 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,8 @@
 				D40F9D271F307DA40089A721 /* ZGSuctionControlDemoTests */,
 				D40F9D321F307DA40089A721 /* ZGSuctionControlDemoUITests */,
 				D40F9D111F307DA40089A721 /* Products */,
+				4A56E266B1794C6C65FEE11F /* Pods */,
+				ED3732E170BDA3F8F8FA285E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				D40F9D131F307DA40089A721 /* AppDelegate.swift */,
+				D40F9D411F307DF50089A721 /* CustomerServiceView.swift */,
 				D40F9D151F307DA40089A721 /* ViewController.swift */,
 				D40F9D171F307DA40089A721 /* Main.storyboard */,
 				D40F9D1A1F307DA40089A721 /* Assets.xcassets */,
@@ -125,6 +158,16 @@
 			path = ZGSuctionControlDemoUITests;
 			sourceTree = "<group>";
 		};
+		ED3732E170BDA3F8F8FA285E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D00486F45EA0DDD5FB5B9D7 /* Pods_ZGSuctionControlDemo.framework */,
+				A189CBB041BCE47D8086EB55 /* Pods_ZGSuctionControlDemoTests.framework */,
+				E9A036FB66FE429FC19E0BCB /* Pods_ZGSuctionControlDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +175,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D40F9D381F307DA40089A721 /* Build configuration list for PBXNativeTarget "ZGSuctionControlDemo" */;
 			buildPhases = (
+				2C440721A4DA9731583CDA82 /* [CP] Check Pods Manifest.lock */,
 				D40F9D0C1F307DA40089A721 /* Sources */,
 				D40F9D0D1F307DA40089A721 /* Frameworks */,
 				D40F9D0E1F307DA40089A721 /* Resources */,
+				4A2626F02AAF737F5AAEBDA6 /* [CP] Embed Pods Frameworks */,
+				5FAE14CCA2BA763C86D676EC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D40F9D3B1F307DA40089A721 /* Build configuration list for PBXNativeTarget "ZGSuctionControlDemoTests" */;
 			buildPhases = (
+				B0F3B12F0D9297A9A13D0A03 /* [CP] Check Pods Manifest.lock */,
 				D40F9D201F307DA40089A721 /* Sources */,
 				D40F9D211F307DA40089A721 /* Frameworks */,
 				D40F9D221F307DA40089A721 /* Resources */,
+				E9091A4EA116BF6DFCB9D17E /* [CP] Embed Pods Frameworks */,
+				B34FC1E370957E87560BA8BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D40F9D3E1F307DA40089A721 /* Build configuration list for PBXNativeTarget "ZGSuctionControlDemoUITests" */;
 			buildPhases = (
+				2BB284DB5DDB440F3591B58B /* [CP] Check Pods Manifest.lock */,
 				D40F9D2B1F307DA40089A721 /* Sources */,
 				D40F9D2C1F307DA40089A721 /* Frameworks */,
 				D40F9D2D1F307DA40089A721 /* Resources */,
+				DCA13F34E2700433FDBE185F /* [CP] Embed Pods Frameworks */,
+				78E6C6D05CF1596E64BA6226 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,12 +306,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2BB284DB5DDB440F3591B58B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2C440721A4DA9731583CDA82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A2626F02AAF737F5AAEBDA6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZGSuctionControlDemo/Pods-ZGSuctionControlDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FAE14CCA2BA763C86D676EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZGSuctionControlDemo/Pods-ZGSuctionControlDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78E6C6D05CF1596E64BA6226 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZGSuctionControlDemoUITests/Pods-ZGSuctionControlDemoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0F3B12F0D9297A9A13D0A03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B34FC1E370957E87560BA8BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZGSuctionControlDemoTests/Pods-ZGSuctionControlDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCA13F34E2700433FDBE185F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZGSuctionControlDemoUITests/Pods-ZGSuctionControlDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9091A4EA116BF6DFCB9D17E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZGSuctionControlDemoTests/Pods-ZGSuctionControlDemoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D40F9D0C1F307DA40089A721 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				D40F9D161F307DA40089A721 /* ViewController.swift in Sources */,
+				D40F9D421F307DF50089A721 /* CustomerServiceView.swift in Sources */,
 				D40F9D141F307DA40089A721 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +603,7 @@
 		};
 		D40F9D391F307DA40089A721 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D88F494100855DAD7DE3DF2C /* Pods-ZGSuctionControlDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZGSuctionControlDemo/Info.plist;
@@ -424,6 +616,7 @@
 		};
 		D40F9D3A1F307DA40089A721 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53964A9ADFD5DDF10EDFB51E /* Pods-ZGSuctionControlDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ZGSuctionControlDemo/Info.plist;
@@ -436,6 +629,7 @@
 		};
 		D40F9D3C1F307DA40089A721 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3396C9B86445291A418149DA /* Pods-ZGSuctionControlDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +644,7 @@
 		};
 		D40F9D3D1F307DA40089A721 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19CEF801BDA021F74EBE57C0 /* Pods-ZGSuctionControlDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +659,7 @@
 		};
 		D40F9D3F1F307DA40089A721 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9ECC97B178FC32A9D4A81F2E /* Pods-ZGSuctionControlDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ZGSuctionControlDemoUITests/Info.plist;
@@ -477,6 +673,7 @@
 		};
 		D40F9D401F307DA40089A721 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEAA784EA0AA16825F4F681A /* Pods-ZGSuctionControlDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ZGSuctionControlDemoUITests/Info.plist;
@@ -507,6 +704,7 @@
 				D40F9D3A1F307DA40089A721 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D40F9D3B1F307DA40089A721 /* Build configuration list for PBXNativeTarget "ZGSuctionControlDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +713,7 @@
 				D40F9D3D1F307DA40089A721 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D40F9D3E1F307DA40089A721 /* Build configuration list for PBXNativeTarget "ZGSuctionControlDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +722,7 @@
 				D40F9D401F307DA40089A721 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

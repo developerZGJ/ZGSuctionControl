@@ -1,0 +1,6 @@
+framework module Pods_ZGSuctionControlDemo {
+  umbrella header "Pods-ZGSuctionControlDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
