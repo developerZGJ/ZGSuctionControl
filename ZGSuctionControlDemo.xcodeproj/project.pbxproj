@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D40F9D141F307DA40089A721 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F9D131F307DA40089A721 /* AppDelegate.swift */; };
+		D40F9D161F307DA40089A721 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F9D151F307DA40089A721 /* ViewController.swift */; };
+		D40F9D191F307DA40089A721 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40F9D171F307DA40089A721 /* Main.storyboard */; };
+		D40F9D1B1F307DA40089A721 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D40F9D1A1F307DA40089A721 /* Assets.xcassets */; };
+		D40F9D1E1F307DA40089A721 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D40F9D1C1F307DA40089A721 /* LaunchScreen.storyboard */; };
+		D40F9D291F307DA40089A721 /* ZGSuctionControlDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F9D281F307DA40089A721 /* ZGSuctionControlDemoTests.swift */; };
+		D40F9D341F307DA40089A721 /* ZGSuctionControlDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F9D331F307DA40089A721 /* ZGSuctionControlDemoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D40F9D251F307DA40089A721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D40F9D081F307DA40089A721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D40F9D0F1F307DA40089A721;
+			remoteInfo = ZGSuctionControlDemo;
+		};
+		D40F9D301F307DA40089A721 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D40F9D081F307DA40089A721 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D40F9D0F1F307DA40089A721;
+			remoteInfo = ZGSuctionControlDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D40F9D101F307DA40089A721 /* ZGSuctionControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZGSuctionControlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40F9D131F307DA40089A721 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D40F9D151F307DA40089A721 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D40F9D181F307DA40089A721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D40F9D1A1F307DA40089A721 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D40F9D1D1F307DA40089A721 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D40F9D1F1F307DA40089A721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D40F9D241F307DA40089A721 /* ZGSuctionControlDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGSuctionControlDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40F9D281F307DA40089A721 /* ZGSuctionControlDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGSuctionControlDemoTests.swift; sourceTree = "<group>"; };
+		D40F9D2A1F307DA40089A721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D40F9D2F1F307DA40089A721 /* ZGSuctionControlDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZGSuctionControlDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D40F9D331F307DA40089A721 /* ZGSuctionControlDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZGSuctionControlDemoUITests.swift; sourceTree = "<group>"; };
+		D40F9D351F307DA40089A721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D40F9D0D1F307DA40089A721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40F9D211F307DA40089A721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40F9D2C1F307DA40089A721 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D40F9D071F307DA40089A721 = {
+			isa = PBXGroup;
+			children = (
+				D40F9D121F307DA40089A721 /* ZGSuctionControlDemo */,
+				D40F9D271F307DA40089A721 /* ZGSuctionControlDemoTests */,
+				D40F9D321F307DA40089A721 /* ZGSuctionControlDemoUITests */,
+				D40F9D111F307DA40089A721 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D40F9D111F307DA40089A721 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D40F9D101F307DA40089A721 /* ZGSuctionControlDemo.app */,
+				D40F9D241F307DA40089A721 /* ZGSuctionControlDemoTests.xctest */,
+				D40F9D2F1F307DA40089A721 /* ZGSuctionControlDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D40F9D121F307DA40089A721 /* ZGSuctionControlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D40F9D131F307DA40089A721 /* AppDelegate.swift */,
+				D40F9D151F307DA40089A721 /* ViewController.swift */,
+				D40F9D171F307DA40089A721 /* Main.storyboard */,
+				D40F9D1A1F307DA40089A721 /* Assets.xcassets */,
+				D40F9D1C1F307DA40089A721 /* LaunchScreen.storyboard */,
+				D40F9D1F1F307DA40089A721 /* Info.plist */,
+			);
+			path = ZGSuctionControlDemo;
+			sourceTree = "<group>";
+		};
+		D40F9D271F307DA40089A721 /* ZGSuctionControlDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D40F9D281F307DA40089A721 /* ZGSuctionControlDemoTests.swift */,
+				D40F9D2A1F307DA40089A721 /* Info.plist */,
+			);
+			path = ZGSuctionControlDemoTests;
+			sourceTree = "<group>";
+		};
+		D40F9D321F307DA40089A721 /* ZGSuctionControlDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D40F9D331F307DA40089A721 /* ZGSuctionControlDemoUITests.swift */,
+				D40F9D351F307DA40089A721 /* Info.plist */,
+			);
+			path = ZGSuctionControlDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D40F9D0F1F307DA40089A721 /* ZGSuctionControlDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40F9D381F307DA40089A721 /* Build configuration list for PBXNativeTarget "ZGSuctionControlDemo" */;
+			buildPhases = (
+				D40F9D0C1F307DA40089A721 /* Sources */,
+				D40F9D0D1F307DA40089A721 /* Frameworks */,
+				D40F9D0E1F307DA40089A721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZGSuctionControlDemo;
+			productName = ZGSuctionControlDemo;
+			productReference = D40F9D101F307DA40089A721 /* ZGSuctionControlDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D40F9D231F307DA40089A721 /* ZGSuctionControlDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40F9D3B1F307DA40089A721 /* Build configuration list for PBXNativeTarget "ZGSuctionControlDemoTests" */;
+			buildPhases = (
+				D40F9D201F307DA40089A721 /* Sources */,
+				D40F9D211F307DA40089A721 /* Frameworks */,
+				D40F9D221F307DA40089A721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D40F9D261F307DA40089A721 /* PBXTargetDependency */,
+			);
+			name = ZGSuctionControlDemoTests;
+			productName = ZGSuctionControlDemoTests;
+			productReference = D40F9D241F307DA40089A721 /* ZGSuctionControlDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D40F9D2E1F307DA40089A721 /* ZGSuctionControlDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D40F9D3E1F307DA40089A721 /* Build configuration list for PBXNativeTarget "ZGSuctionControlDemoUITests" */;
+			buildPhases = (
+				D40F9D2B1F307DA40089A721 /* Sources */,
+				D40F9D2C1F307DA40089A721 /* Frameworks */,
+				D40F9D2D1F307DA40089A721 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D40F9D311F307DA40089A721 /* PBXTargetDependency */,
+			);
+			name = ZGSuctionControlDemoUITests;
+			productName = ZGSuctionControlDemoUITests;
+			productReference = D40F9D2F1F307DA40089A721 /* ZGSuctionControlDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D40F9D081F307DA40089A721 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "上海途宝网络科技";
+				TargetAttributes = {
+					D40F9D0F1F307DA40089A721 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					D40F9D231F307DA40089A721 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D40F9D0F1F307DA40089A721;
+					};
+					D40F9D2E1F307DA40089A721 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D40F9D0F1F307DA40089A721;
+					};
+				};
+			};
+			buildConfigurationList = D40F9D0B1F307DA40089A721 /* Build configuration list for PBXProject "ZGSuctionControlDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D40F9D071F307DA40089A721;
+			productRefGroup = D40F9D111F307DA40089A721 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D40F9D0F1F307DA40089A721 /* ZGSuctionControlDemo */,
+				D40F9D231F307DA40089A721 /* ZGSuctionControlDemoTests */,
+				D40F9D2E1F307DA40089A721 /* ZGSuctionControlDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D40F9D0E1F307DA40089A721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40F9D1E1F307DA40089A721 /* LaunchScreen.storyboard in Resources */,
+				D40F9D1B1F307DA40089A721 /* Assets.xcassets in Resources */,
+				D40F9D191F307DA40089A721 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40F9D221F307DA40089A721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40F9D2D1F307DA40089A721 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D40F9D0C1F307DA40089A721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40F9D161F307DA40089A721 /* ViewController.swift in Sources */,
+				D40F9D141F307DA40089A721 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40F9D201F307DA40089A721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40F9D291F307DA40089A721 /* ZGSuctionControlDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D40F9D2B1F307DA40089A721 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D40F9D341F307DA40089A721 /* ZGSuctionControlDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D40F9D261F307DA40089A721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D40F9D0F1F307DA40089A721 /* ZGSuctionControlDemo */;
+			targetProxy = D40F9D251F307DA40089A721 /* PBXContainerItemProxy */;
+		};
+		D40F9D311F307DA40089A721 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D40F9D0F1F307DA40089A721 /* ZGSuctionControlDemo */;
+			targetProxy = D40F9D301F307DA40089A721 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D40F9D171F307DA40089A721 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D40F9D181F307DA40089A721 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D40F9D1C1F307DA40089A721 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D40F9D1D1F307DA40089A721 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D40F9D361F307DA40089A721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D40F9D371F307DA40089A721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D40F9D391F307DA40089A721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZGSuctionControlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shanghai-TuorbagNetwork-Technology-Co.-Ltd.ZGSuctionControlDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D40F9D3A1F307DA40089A721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZGSuctionControlDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shanghai-TuorbagNetwork-Technology-Co.-Ltd.ZGSuctionControlDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D40F9D3C1F307DA40089A721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZGSuctionControlDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shanghai-TuorbagNetwork-Technology-Co.-Ltd.ZGSuctionControlDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGSuctionControlDemo.app/ZGSuctionControlDemo";
+			};
+			name = Debug;
+		};
+		D40F9D3D1F307DA40089A721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZGSuctionControlDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shanghai-TuorbagNetwork-Technology-Co.-Ltd.ZGSuctionControlDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZGSuctionControlDemo.app/ZGSuctionControlDemo";
+			};
+			name = Release;
+		};
+		D40F9D3F1F307DA40089A721 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZGSuctionControlDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shanghai-TuorbagNetwork-Technology-Co.-Ltd.ZGSuctionControlDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZGSuctionControlDemo;
+			};
+			name = Debug;
+		};
+		D40F9D401F307DA40089A721 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ZGSuctionControlDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Shanghai-TuorbagNetwork-Technology-Co.-Ltd.ZGSuctionControlDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZGSuctionControlDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D40F9D0B1F307DA40089A721 /* Build configuration list for PBXProject "ZGSuctionControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40F9D361F307DA40089A721 /* Debug */,
+				D40F9D371F307DA40089A721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D40F9D381F307DA40089A721 /* Build configuration list for PBXNativeTarget "ZGSuctionControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40F9D391F307DA40089A721 /* Debug */,
+				D40F9D3A1F307DA40089A721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D40F9D3B1F307DA40089A721 /* Build configuration list for PBXNativeTarget "ZGSuctionControlDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40F9D3C1F307DA40089A721 /* Debug */,
+				D40F9D3D1F307DA40089A721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D40F9D3E1F307DA40089A721 /* Build configuration list for PBXNativeTarget "ZGSuctionControlDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D40F9D3F1F307DA40089A721 /* Debug */,
+				D40F9D401F307DA40089A721 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D40F9D081F307DA40089A721 /* Project object */;
+}
